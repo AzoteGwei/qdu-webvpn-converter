@@ -1,6 +1,6 @@
 const Footer = () => (
   <footer className="bg-zinc-200/30 dark:bg-zinc-500/10 p-4 text-center dark:text-gray-400 text-sm">
-    Created with love at BIT
+    Created with love at bit
     <br />
     <a
       href="https://spencerwoo.com"
@@ -11,6 +11,7 @@ const Footer = () => (
       Spencer Woo
     </a>{' '}
     @ 2020 - {new Date().getFullYear()}
+    Edited By <a href='https://github.com/Azotegwei'>AzoteGwei</a> to suit QDU Url.
   </footer>
 )
 export default Footer

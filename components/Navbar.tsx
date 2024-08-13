@@ -37,7 +37,12 @@ const Navbar = () => {
       <NavLink href="/retrevnoc">Retrevnoc</NavLink>
       <NavLink href="https://github.com/spencerwooo/bit-webvpn-converter" isExternal>
         <div className="flex items-center">
-          GitHub <RiGithubLine className="ml-1 w-4 h-4" />
+          Original GitHub <RiGithubLine className="ml-1 w-4 h-4" />
+        </div>
+      </NavLink>
+      <NavLink href="https://github.com/Azotegwei/qdu-webvpn-converter" isExternal>
+        <div className="flex items-center">
+          Edited GitHub <RiGithubLine className="ml-1 w-4 h-4" />
         </div>
       </NavLink>
     </nav>

@@ -1,6 +1,10 @@
 # Web VPN Converter
 
-_Connect to your local networks in BIT from anywhere in the world._
+_Connect to your local networks in QDU from anywhere in the world._
+
+## Thanks
+
+This repo is forked from [spencerwooo/bit-webvpn-converter](https://github.com/spencerwooo/bit-webvpn-converter).
 
 ## Demo
 
@@ -29,7 +33,7 @@ GET /api/https%3A%2F%2Fbit.edu.cn?prefix=web&redirect=false
 
 ```json
 {
-  "url": "https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421f2fe55d222347d1e7d06"
+  "url": "https://webvpn.qdu.edu.cn/https/77726476706e69737468656265737421f2fe55d222347d1e7d06"
 }
 ```
 
