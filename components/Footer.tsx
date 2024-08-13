@@ -11,6 +11,7 @@ const Footer = () => (
       Spencer Woo
     </a>{' '}
     @ 2020 - {new Date().getFullYear()}
+    <hr />
     Edited By <a href='https://github.com/Azotegwei'>AzoteGwei</a> to suit QDU Url.
   </footer>
 )
