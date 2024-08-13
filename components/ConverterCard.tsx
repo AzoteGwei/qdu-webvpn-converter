@@ -89,17 +89,6 @@ const ConverterCard = ({ reverse = false }: { reverse?: boolean }) => {
               >
                 Web VPN
               </button>
-              <button
-                className={`rounded opacity-80 hover:opacity-100 transition-all duration-50 ${
-                  urlPrefix === prefix.lib ? 'bg-zinc-300 dark:bg-zinc-900' : 'bg-zinc-100 dark:bg-zinc-700'
-                }`}
-                onClick={() => {
-                  setUrlPrefix(prefix.lib)
-                  encrypt(enteredUrl, prefix.lib)
-                }}
-              >
-                Library VPN
-              </button>
             </div>
           )}
           <RiArrowDownLine className="h-5 mx-auto" />
